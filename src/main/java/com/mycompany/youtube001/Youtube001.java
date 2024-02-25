@@ -11,10 +11,10 @@ package com.mycompany.youtube001;
 public class Youtube001 {
 
     public static void main(String[] args) {
-         Usuario usu1 = new Usuario("joseandres");
-        video vid1= new Video ("gatooo",24000"http;//joseandres");
-        usu1.SubirVideo(vid1);
-        usu1.MostrarInfoUsuario();
+         usuario usu1 = new Usuario("joseandres");
+        video vid1= new video ("gatooo",24000"http;//joseandres");
+        usu1.subirVideo(vid1);
+        usu1.mostrarinfoUsuario();
        
     }
 }
