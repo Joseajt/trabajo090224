@@ -9,11 +9,11 @@ package com.mycompany.youtube001;
  * @author josej
  */
 public class visualizacion {
-     Usuario Espectador;
+     usuario Espectador;
     Video Video;
-    public Visualizacion () {
+    public visualizacion () {
     }
-    public Visualizacion (Video Video,Usuario Viewer) {
+    public visualizacion (Video Video,usuario Viewer) {
         this.Espectador= Viewer;
         this.Video= Video;
     }    
@@ -23,10 +23,10 @@ public class visualizacion {
     public void setVideo (Video Video) {
             this.Video= Video;
         }
-    public Usuario getViewer() {
+    public usuario getViewer() {
             return Espectador;
         }
-    public void setViewer (Usuario Vierwer) {
+    public void setViewer (usuario Vierwer) {
             this.Espectador= Vierwer;
         }
         

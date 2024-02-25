@@ -10,9 +10,9 @@ package com.mycompany.youtube001;
  */
 public class comentarios {
     public String contenido;
-     public Usuario autor;
+     public usuario autor;
 
-    public Comentario(String contenido, Usuario autor) {
+    public comentarios(String contenido, usuario autor) {
         this.contenido = contenido;
         this.autor = autor;
     }
@@ -25,11 +25,11 @@ public class comentarios {
         this.contenido = contenido;
     }
 
-    public Usuario getAutor() {
+    public usuario getAutor() {
         return autor;
     }
 
-    public void setAutor(Usuario autor) {
+    public void setAutor(usuario autor) {
         this.autor = autor;
     }
     
