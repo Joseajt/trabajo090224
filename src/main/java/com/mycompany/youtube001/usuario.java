@@ -9,18 +9,18 @@ package com.mycompany.youtube001;
  * @author josej
  */
 public class usuario {
-    public string nombre;
+    public String nombre;
     public video videosubido;
 
-    public usuario(string nombre) {
+    public usuario(String nombre) {
         this.nombre = nombre;
     }
 
-    public string getNombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(string nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 

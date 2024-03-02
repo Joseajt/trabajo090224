@@ -9,21 +9,21 @@ package com.mycompany.youtube001;
  * @author josej
  */
 public class video {
-   public string titulo;
+   public String titulo;
    public int duracionsegundos;
-   public string url;
+   public String url;
 
-    public video(string titulo, int duracionsegundos, string url) {
+    public video(String titulo, int duracionsegundos, String url) {
         this.titulo = titulo;
         this.duracionsegundos = duracionsegundos;
         this.url = url;
     }
 
-    public string getTitulo() {
+    public String getTitulo() {
         return titulo;
     }
 
-    public void setTitulo(string titulo) {
+    public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
 
@@ -35,11 +35,11 @@ public class video {
         this.duracionsegundos = duracionsegundos;
     }
 
-    public string getUrl() {
+    public String getUrl() {
         return url;
     }
 
-    public void setUrl(string url) {
+    public void setUrl(String url) {
         this.url = url;
     }
    

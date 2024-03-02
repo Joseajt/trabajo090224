@@ -10,18 +10,18 @@ package com.mycompany.youtube001;
  */
 public class visualizacion {
      usuario Espectador;
-    Video Video;
+    video video;
     public visualizacion () {
     }
-    public visualizacion (Video Video,usuario Viewer) {
+    public visualizacion (video Video,usuario Viewer) {
         this.Espectador= Viewer;
-        this.Video= Video;
+        this.video= Video;
     }    
-    public Video getVideo() {
-            return Video;
+    public video getVideo() {
+            return video;
         }
-    public void setVideo (Video Video) {
-            this.Video= Video;
+    public void setVideo (video Video) {
+            this.video= Video;
         }
     public usuario getViewer() {
             return Espectador;
